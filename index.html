@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Address Site</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <form id="form">
+    <h1>My Contacts</h1>
+    <input type="text" name="name" id="name" placeholder="Name">
+    <input type="email" name="email" id="email" placeholder="Email">
+    <input type="phone" name="phone" id="phone" placeholder="Phone">
+    <input type="text" name="family" id="family" placeholder="Family">
+    <!-- This is what's being targeted in js -->
+    <input onclick="button()" type="button" value="Add" id="button">
+  </form>  
+    
+  <div id="contact_section"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
